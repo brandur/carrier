@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+gem "multi_json"
+gem "oj"
+gem "puma"
+gem "rack-instruments"
+gem "rack-ssl"
+gem "sass"
+gem "sinatra", require: "sinatra/base"
+gem "sinatra-contrib", require: "sinatra/namespace"
+gem "sinatra-router"
+gem "slides"
+gem "slim"
