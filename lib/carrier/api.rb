@@ -18,6 +18,7 @@ module Carrier
 
     post "/messages" do
       raw = MultiJson.decode(request.body.read) rescue halt(400)
+      log(:new_message, raw)
     end
   end
 end
